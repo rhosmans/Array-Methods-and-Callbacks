@@ -11,19 +11,6 @@ console.log('its working');
 (d) Away Team goals for 2014 world cup final
 (e) Winner of 2014 world cup final */
 
-// console.log(fifaData);
-
-/*const twentyFourteenArr = [];
-function gettwentyFourteen(arr){
-    for(let i = 0; i < arr.length; i++) {
-        if (arr[i].Year === 2014){
-            twentyFourteenArr.push(arr[i]);
-        }
-    }
-}
-gettwentyFourteen(fifaData);
-console.log(twentyFourteenArr);*/
-
 const twentyFourteenArr = [];
 
 fifaData.forEach(function(element){
